@@ -4,7 +4,7 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 
-st.title("Split-panel Map")
+st.title("分页式地图")
 
 with st.expander("See source code"):
     with st.echo():
