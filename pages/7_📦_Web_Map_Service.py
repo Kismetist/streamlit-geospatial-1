@@ -12,12 +12,10 @@ def get_layers(url):
 
 
 def app():
-    st.title("Web Map Service (WMS)")
+    st.title("网络地图服务(WMS)")
     st.markdown(
         """
-    This app is a demonstration of loading Web Map Service (WMS) layers. Simply enter the URL of the WMS service 
-    in the text box below and press Enter to retrieve the layers. Go to https://apps.nationalmap.gov/services to find 
-    some WMS URLs if needed.
+这个应用程序是一个加载网络地图服务（WMS）图层的演示。只需在下面的文本框中输入WMS服务的URL，然后按回车键即可检索图层。如果需要的话，请到https://apps.nationalmap.gov/services，下载一些WMS的URL。
     """
     )
 
