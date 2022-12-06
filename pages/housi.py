@@ -33,3 +33,4 @@ def app():
             m = leafmap.Map()
             m.add_census_data(wms, layer)
             m.to_streamlit(width, height)
+app()
